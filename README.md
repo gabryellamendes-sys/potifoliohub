@@ -1,191 +1,308 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PortfolioHUB</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family: Arial, Helvetica, sans-serif;
-    }
+    <title>PortfolioHUB - Gabryella Mendes Ferreira</title>
 
-    body{
-      background:#f4f4f4;
-      color:#333;
-    }
+    <style>
 
-    header{
-      background:#0d1117;
-      color:white;
-      padding:40px;
-      text-align:center;
-    }
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
 
-    header h1{
-      font-size:40px;
-      margin-bottom:10px;
-    }
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background:#0f172a;
+            color:white;
+        }
 
-    nav{
-      background:#161b22;
-      padding:15px;
-      text-align:center;
-    }
+        header{
+            background:#020617;
+            padding:20px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
 
-    nav a{
-      color:white;
-      text-decoration:none;
-      margin:0 15px;
-      font-weight:bold;
-    }
+        .logo{
+            font-size:28px;
+            font-weight:bold;
+            color:#38bdf8;
+        }
 
-    section{
-      padding:40px;
-    }
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-size:18px;
+        }
 
-    .cards{
-      display:flex;
-      flex-wrap:wrap;
-      gap:20px;
-      justify-content:center;
-    }
+        nav a:hover{
+            color:#38bdf8;
+        }
 
-    .card{
-      background:white;
-      width:300px;
-      padding:20px;
-      border-radius:10px;
-      box-shadow:0 0 10px rgba(0,0,0,0.1);
-      transition:0.3s;
-    }
+        .hero{
+            text-align:center;
+            padding:100px 20px;
+        }
 
-    .card:hover{
-      transform:scale(1.03);
-    }
+        .hero h1{
+            font-size:55px;
+            margin-bottom:20px;
+        }
 
-    .card h3{
-      margin-bottom:10px;
-      color:#0d1117;
-    }
+        .hero p{
+            font-size:22px;
+            max-width:800px;
+            margin:auto;
+            line-height:1.6;
+        }
 
-    footer{
-      background:#0d1117;
-      color:white;
-      text-align:center;
-      padding:20px;
-      margin-top:30px;
-    }
+        .btn{
+            display:inline-block;
+            margin-top:30px;
+            padding:15px 30px;
+            background:#38bdf8;
+            color:black;
+            text-decoration:none;
+            border-radius:10px;
+            font-weight:bold;
+            transition:0.3s;
+        }
 
-    .btn{
-      display:inline-block;
-      margin-top:15px;
-      padding:10px 15px;
-      background:#238636;
-      color:white;
-      text-decoration:none;
-      border-radius:5px;
-    }
+        .btn:hover{
+            transform:scale(1.05);
+        }
 
-    .btn:hover{
-      background:#2ea043;
-    }
+        .section{
+            width:85%;
+            margin:auto;
+            padding:60px 0;
+        }
 
-    .contato a{
-      color:#238636;
-      text-decoration:none;
-      font-weight:bold;
-    }
-  </style>
+        .section h2{
+            font-size:40px;
+            margin-bottom:30px;
+            color:#38bdf8;
+            text-align:center;
+        }
+
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .card{
+            background:#1e293b;
+            padding:25px;
+            border-radius:20px;
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+        }
+
+        .card h3{
+            margin-bottom:15px;
+            color:#38bdf8;
+        }
+
+        .card p{
+            line-height:1.5;
+        }
+
+        .contact{
+            text-align:center;
+            padding-bottom:80px;
+        }
+
+        .contact p{
+            font-size:20px;
+            margin:15px 0;
+        }
+
+        .contact a{
+            color:#38bdf8;
+            text-decoration:none;
+        }
+
+        footer{
+            background:#020617;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+    </style>
 </head>
 
 <body>
 
-  <header>
-    <h1>PortfolioHUB</h1>
-    <p>Meu Portifolio profissional acadêmico</p>
-  </header>
+    <header>
 
-  <nav>
-    <a href="#sobre">Sobre</a>
-    <a href="#projetos">Projetos</a>
-    <a href="#contato">Contato</a>
-  </nav>
+        <div class="logo">
+            PortfolioHUB
+        </div>
 
-  <section id="sobre">
-    <h2>Sobre Mim</h2>
-    <br>
+        <nav>
+            <a href="#">Sobre</a>
+            <a href="#">Projetos</a>
+            <a href="#">Contato</a>
+        </nav>
 
-    <p>
-      Olá! Meu nome é Gabryella Mendes Ferreira.
-      Sou estudante de Engenharia de Software.
-      Este site foi desenvolvido para apresentar meus projetos acadêmicos
-      e profissionais utilizando GitHub e GitHub Pages.
-    </p>
-  </section>
+    </header>
 
-  <section id="projetos">
-    <h2>Meu Projeto</h2>
-    <br>
+    <section class="hero">
 
-    <div class="cards">
-
-      <div class="card">
-        <h3>Portfólio Acadêmico</h3>
+        <h1>GABRYELLA MENDES FERREIRA</h1>
 
         <p>
-          Projeto desenvolvido para apresentar atividades,
-          projetos acadêmicos e evolução profissional na área
-          de Engenharia de Software.
+            Meu Portifolio profissional acadêmico.
+            Sou estudante de Engenharia de Software e este portfólio
+            foi desenvolvido utilizando HTML, CSS, GitHub e GitHub Pages.
         </p>
 
-        <a href="https://github.com/gabryellamendes-sys/PortfolioHub/blob/main/PortifolioHub.pdf"
-           target="_blank"
-           class="btn">
-          Ver Projeto
+        <a class="btn"
+           href="https://github.com/gabryellamendes-sys/PortfolioHub/blob/main/PortifolioHub.pdf"
+           target="_blank">
+
+           Acessar Portfólio
+
         </a>
-      </div>
 
-    </div>
-  </section>
+    </section>
 
-  <section id="contato" class="contato">
-    <h2>Contato</h2>
-    <br>
+    <section class="section">
 
-    <p>
-      Email:
-      gabryella.mendes@sempreceub.com
-    </p>
+        <h2>Projetos</h2>
 
-    <br>
+        <div class="cards">
 
-    <p>
-      LinkedIn:
-      <a href="https://www.linkedin.com/in/gabryella-mendes-4926ab3b8?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
-         target="_blank">
-         Meu LinkedIn
-      </a>
-    </p>
+            <div class="card">
 
-    <br>
+                <h3>Portfólio Acadêmico</h3>
 
-    <p>
-      GitHub:
-      <a href="https://github.com/gabryellamendes-sys"
-         target="_blank">
-         Meu GitHub
-      </a>
-    </p>
+                <p>
+                    Desenvolvimento de um portfólio online utilizando HTML,
+                    CSS e GitHub Pages para apresentação acadêmica e profissional.
+                </p>
 
-  </section>
+            </div>
 
-  <footer>
-    <p>© 2026 - PortfolioHUB</p>
-  </footer>
+            <div class="card">
+
+                <h3>GitHub Profissional</h3>
+
+                <p>
+                    Organização de projetos, versionamento de código
+                    e compartilhamento de atividades acadêmicas utilizando GitHub.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Projetos Acadêmicos</h3>
+
+                <p>
+                    Desenvolvimento de atividades e projetos relacionados
+                    à Engenharia de Software e desenvolvimento web.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Habilidades</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>HTML & CSS</h3>
+
+                <p>
+                    Desenvolvimento de páginas web modernas,
+                    organizadas e responsivas.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>GitHub</h3>
+
+                <p>
+                    Versionamento de código, organização
+                    de projetos e publicação online.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Engenharia de Software</h3>
+
+                <p>
+                    Conhecimentos em desenvolvimento de sistemas,
+                    organização de projetos e documentação.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact">
+
+        <h2>Contato</h2>
+
+        <p>
+            Email: gabryella.mendes@sempreceub.com
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/gabryella-mendes-4926ab3b8?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+               target="_blank">
+
+               Meu LinkedIn
+
+            </a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/gabryellamendes-sys"
+               target="_blank">
+
+               github.com/gabryellamendes-sys
+
+            </a>
+        </p>
+
+    </section>
+
+    <footer>
+
+        <p>
+            © 2026 - Gabryella Mendes Ferreira
+        </p>
+
+    </footer>
 
 </body>
+
 </html>
