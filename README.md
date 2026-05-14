@@ -122,8 +122,8 @@
     <p>
       Olá! Meu nome é Gabryella Mendes Ferreira.
       Sou estudante de Engenharia de Software.
-      Este site foi desenvolvido para apresentar meu portfólio acadêmico
-      e profissional utilizando GitHub e GitHub Pages.
+      Este site foi desenvolvido para apresentar meus projetos acadêmicos
+      e profissionais utilizando GitHub e GitHub Pages.
     </p>
   </section>
 
@@ -154,6 +154,13 @@
 
   <section id="contato" class="contato">
     <h2>Contato</h2>
+    <br>
+
+    <p>
+      Email:
+      gabryella.mendes@sempreceub.com
+    </p>
+
     <br>
 
     <p>
