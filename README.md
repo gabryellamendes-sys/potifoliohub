@@ -10,6 +10,7 @@ Criar um repositório profissional utilizando GitHub, GitHub Pages e versionamen
 - CSS
 - GitHub
 - GitHub Pages
+-  Google Gemini
 
 ## Projetos
 - Portfólio Acadêmico
