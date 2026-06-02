@@ -28,3 +28,11 @@ https://github.com/gabryellamendes-sys
 
 ## Portfólio Online
 https://github.com/gabryellamendes-sys/PortfolioHub/blob/main/PortifolioHub.pdf
+## Implantação Final
+
+Este projeto foi atualizado para a atividade final de implantação do PortfolioHUB.
+
+Ferramentas utilizadas:
+- GitHub
+- GitHub Pages
+- Google Gemini
